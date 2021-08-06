@@ -1,7 +1,7 @@
 #include"ContBancar.h"
 
 
-ContBancar(std::string nume, std::string prenume, std::string IBAN);
+ContBancar::ContBancar(std::string nume, std::string prenume, std::string IBAN)
 {
 	this->nume = nume;
 	this->prenume = prenume;
